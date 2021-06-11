@@ -59,7 +59,7 @@ var n = +prompt();
 var i = 0;
 var j = 0;
 
-if ((n % 2 === 0) && (Math.floor(n / 10))) {
+if ((n % 2 === 0) && (!Math.floor(n / 10))) {
         i += 1;
 }
 
