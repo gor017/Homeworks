@@ -22,6 +22,19 @@ for (i = a; i < b; i++) {
     }
 }
 
+// xndir 2 mi qich urish lucumov
+let a = +prompt()
+let b = +prompt()
+let www = 1
+let result = ''
+for (i = a; i < b; i++) {
+    www *= 2
+    if ((www > a) && (www < b)) {
+        result += `${www} `
+    }
+}
+console.log(result)
+
 
 // xndir 2 (arrayov lucum)
 let a = +prompt()
