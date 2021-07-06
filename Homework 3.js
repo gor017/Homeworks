@@ -58,7 +58,7 @@ reverseArray ([5, 3, 7, 2, 9])
 
 //xndir 3 (in place)
 function reverseArray (arr) {
-    for (let i = 0; i <= (arr.length / 2); i++) {
+    for (let i = 0; i < (arr.length / 2); i++) {
         let elem = arr[i]
         arr[i] = arr[arr.length - 1 - i]
         arr[arr.length - 1 - i] = elem
